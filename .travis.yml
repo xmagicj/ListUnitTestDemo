@@ -3,7 +3,7 @@ sudo: false
 
 android:
   components:
-    - build-tools-23.0.1
+    - build-tools-23.0.2
     - android-23
     - extra-android-support
     - extra-android-m2repository
@@ -11,5 +11,5 @@ android:
 before_install:
   - chmod +x gradlew
     
-script:
-  - ./gradlew :app:assembleRelease
+#script:
+#  - ./gradlew :app:assembleRelease
